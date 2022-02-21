@@ -1,0 +1,33 @@
+[[package]]
+name = "chess"
+version = "1.8.0"
+description = "A chess library with move generation and validation, Polyglot opening book probing, PGN reading and writing, Gaviota tablebase probing, Syzygy tablebase probing, and XBoard/UCI engine communication."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "python-chess"
+version = "1.999"
+description = "A chess library with move generation, move validation, and support for common formats."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+chess = ">=1,<2"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "d63c5f115297b3b6f309ee4f1688c593c09f2013efcaa17c76ab00f3c209fa24"
+
+[metadata.files]
+chess = [
+    {file = "chess-1.8.0-py3-none-any.whl", hash = "sha256:16fe017901201b93d73830c20ec7c36a329d2b22326f838d1bcfc55d3f63679c"},
+    {file = "chess-1.8.0.tar.gz", hash = "sha256:6fa56d88376247c8193e6ad03c10e2c0066f2a8199faf8a1587718238910c547"},
+]
+python-chess = [
+    {file = "python-chess-1.999.tar.gz", hash = "sha256:8cad0388c42242d890ac6368ad64def15cd0165db033df0ad479492e266e5e6c"},
+    {file = "python_chess-1.999-py3-none-any.whl", hash = "sha256:93b562f8f1124cb7bf56fb095e18743758e69dc6a028ccda0badcaa5c59d88c8"},
+]
